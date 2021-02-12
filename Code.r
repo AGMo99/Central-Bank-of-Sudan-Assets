@@ -12,7 +12,7 @@ library(dplyr)
 
 #Load The Data
 
-Data <- read.csv('C:/Users/AG/Desktop/sudan/Central Bank of Sudan Balance Sheet.csv')
+Data <- read.csv('.../Central Bank of Sudan Balance Sheet.csv')
 
 Data <- subset(Data, select = c(-1))
 
